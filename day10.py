@@ -59,11 +59,9 @@ def task2(data: list[str]) -> int:
 
 
 def main() -> None:
-    # with open('./data/test.txt') as f:
     with open('./data/day10.txt') as f:
         data = [i for i in f.read().split('\n')]
 
-    # print(data)
     t = time.process_time()
 
     print(f'Result of the 1st subtask: {task1(data)}')
